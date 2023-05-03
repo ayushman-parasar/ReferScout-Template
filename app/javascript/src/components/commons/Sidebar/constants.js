@@ -1,4 +1,4 @@
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, UserIcon } from "@heroicons/react/24/outline";
 
 export const APP_NAME = "Wheel";
 
@@ -15,6 +15,6 @@ export const SIDENAV_LINKS = [
   {
     label: "Settings",
     to: "/settings",
-    icon: XMarkIcon,
+    icon: UserIcon,
   },
 ];
