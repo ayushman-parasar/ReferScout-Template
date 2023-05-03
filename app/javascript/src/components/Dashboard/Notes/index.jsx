@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import EmptyNotesListImage from "images/EmptyNotesList";
-import { Delete } from "neetoicons";
+// import { Delete } from "neetoicons";
 import { Button, PageLoader } from "neetoui";
 import { Container, Header, SubHeader } from "neetoui/layouts";
 
@@ -65,7 +65,7 @@ const Notes = () => {
             rightActionBlock={
               <Button
                 disabled={!selectedNoteIds.length}
-                icon={Delete}
+                // icon={Delete}
                 label="Delete"
                 size="small"
                 onClick={() => setShowDeleteAlert(true)}
