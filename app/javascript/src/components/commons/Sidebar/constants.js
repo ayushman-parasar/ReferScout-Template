@@ -1,4 +1,4 @@
-import { Notes, Settings } from "neetoicons";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 export const APP_NAME = "Wheel";
 
@@ -10,11 +10,11 @@ export const SIDENAV_LINKS = [
   {
     label: "Notes",
     to: "/notes",
-    icon: Notes,
+    icon: Bars3Icon,
   },
   {
     label: "Settings",
     to: "/settings",
-    icon: Settings,
+    icon: XMarkIcon,
   },
 ];

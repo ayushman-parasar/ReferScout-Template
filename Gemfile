@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-ruby "3.1.3"
+ruby "3.0.4"
 
 gem "rails", "~> 7.0.3.1"
 gem "sprockets"
@@ -101,5 +101,5 @@ group :test do
   gem "minitest-ci"
 
   # Check semaphore config - this gem only relevant in semaphoreCI
-  gem "ffi", github: "ffi/ffi", submodules: true
+  # gem "ffi", github: "ffi/ffi", submodules: true
 end
