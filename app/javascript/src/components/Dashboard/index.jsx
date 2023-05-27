@@ -12,7 +12,7 @@ import {
 const Dashboard = () => (
   <div className="flex h-screen w-full">
     <Sidebar />
-    <Switch>
+    <Switch className="flex-grow">
       {DASHBOARD_ROUTES.map(({ path, component }) => (
         <Route exact component={component} key={path} path={path} />
       ))}

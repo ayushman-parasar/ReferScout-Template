@@ -9,6 +9,7 @@ module.exports = {
       "./app/javascript/**/*.jsx",
       "./app/javascript/**/**/*.jsx",
       "./app/javascript/**/**/**/*.jsx",
+      "./app/javascript/**/**/**/**/*.jsx",
       "./app/views/**/**/*.slim",
       "./app/views/**/**/*/*.slim",
       "./node_modules/@bigbinary/neetoui/**/*",
